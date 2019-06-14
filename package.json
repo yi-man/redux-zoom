@@ -1,0 +1,29 @@
+{
+  "name": "@lianjia/redux-zoom",
+  "publishConfig": {
+    "registry": "http://registry.npmjs.lianjia.com:7001/"
+   },
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "prepare": "npm run test && npm run build",
+    "build": "BABEL_ENV=commonjs babel src --out-dir lib",
+    "test": "mocha --require @babel/register test/*.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "@babel/register": "^7.0.0",
+    "chai": "^4.2.0",
+    "mocha": "^6.0.2",
+    "redux": "^4.0.1"
+  },
+  "dependencies": {
+    "invariant": "^2.2.4"
+  }
+}
