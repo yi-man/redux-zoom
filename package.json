@@ -2,7 +2,7 @@
   "name": "@lianjia/redux-zoom",
   "publishConfig": {
     "registry": "http://registry.npmjs.lianjia.com:7001/"
-   },
+  },
   "version": "1.0.0",
   "description": "",
   "main": "lib/index.js",
@@ -20,7 +20,7 @@
     "@babel/preset-env": "^7.3.4",
     "@babel/register": "^7.0.0",
     "chai": "^4.2.0",
-    "mocha": "^6.0.2",
+    "mocha": "^6.1.4",
     "redux": "^4.0.1"
   },
   "dependencies": {
